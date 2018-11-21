@@ -1,0 +1,38 @@
+{
+  "name": "Dakwerken",
+  "version": "0.0.1",
+  "description": "Dakwerken Daniels",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "~2.2.2",
+    "gulp": "~3.9.1",
+    "gulp-clean-css": "~2.0.12",
+    "gulp-jsmin": "~0.1.5",
+    "gulp-rename": "~1.2.2",
+    "gulp-sass": "~2.3.2",
+    "gulp-concat": "2.5.2",
+    "gulp-uglify": "~2.0.0"
+  },
+  "devDependencies": {
+    "del": "~2.2.2",
+    "gulp-cache": "~0.4.5",
+    "gulp-imagemin": "~3.0.3",
+    "gulp-jsmin": "~0.1.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "~1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "notify-send": "^0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/illutek/dakwerken.git"
+  },
+  "author": "Stefan",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/illutek/dakwerken/issues"
+  }
+}
