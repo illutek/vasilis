@@ -14,6 +14,6 @@
     <img src="images/header-bcg.jpg" alt="">
   </div>
   <div class="header__cta">
-    <a href="#" class="btn--blue">Vraag een vrijblijvende offerte aan.</a>
+    <a href="#" class="btn btn--blue">Vraag een vrijblijvende offerte aan.</a>
   </div>
 </div>

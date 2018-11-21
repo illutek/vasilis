@@ -9,10 +9,12 @@
 ?>
 
 <div class="header-top">
-  <div class="header-top__mail">
-    <a href="mailto:stefan@illutek.com">Vasilis@gmail.com</a>
-  </div>
-  <div class="header-top__phone">
-    <a href="#">+(32)45637219</a>
+  <div class="container header-top__wrap">
+    <div class="header-top__mail">
+      <a href="mailto:stefan@illutek.com">Vasilis@gmail.com</a>
+    </div>
+    <div class="header-top__phone">
+      <a href="#">+(32)45637219</a>
+    </div>
   </div>
 </div>

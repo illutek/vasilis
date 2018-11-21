@@ -1,10 +1,18 @@
 // //////////////////////////////
 // @@ HEADER-TOP AND HEADER 
-// /////////////////////////////@at-root
+// /////////////////////////////
 
 .header-top {
   background-color: $blue;
   min-height: 5rem;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+  }
+  
 }
 
 
@@ -14,7 +22,28 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+    'logo'
+    'cta';
+
+  &__logo {
+    grid-area: logo;
+  }
+
+  &__bcg-img {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+
+  }
+
+  &__cta {
+    grid-area: cta;
+    align-self: end;
+    justify-self: end;
+
+    padding: 3rem;
+  }
 
 }

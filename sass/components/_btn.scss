@@ -1,0 +1,12 @@
+// //////////////////////////////
+// @@ BUTTON
+// /////////////////////////////
+
+.btn {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+
+  &--blue {
+    background-color: $blue;
+  }
+}
