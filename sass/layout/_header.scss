@@ -1,0 +1,20 @@
+// //////////////////////////////
+// @@ HEADER-TOP AND HEADER 
+// /////////////////////////////@at-root
+
+.header-top {
+  background-color: $blue;
+  min-height: 5rem;
+}
+
+
+
+
+
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+}

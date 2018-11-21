@@ -1,9 +1,9 @@
 {
-  "name": "schoen",
+  "name": "vasilis",
   "authors": [
     "Stefan <stefan@illutek.be>"
   ],
-  "description": "theme voor Ronny schoenmakerij",
+  "description": "theme voor Vasilis elektriciteitswerken",
   "main": "",
   "license": "MIT",
   "homepage": "",
@@ -15,7 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "3.3.6",
     "font-awesome": "fontawesome#4.6.3",
     "animate.css": "3.5.2",
     "wow": "wowjs#^1.1.2",
