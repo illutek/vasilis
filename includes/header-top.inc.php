@@ -9,12 +9,16 @@
 ?>
 
 <div class="header-top">
-  <div class="container header-top__wrap">
-    <div class="header-top__mail">
-      <a href="mailto:stefan@illutek.com">Vasilis@gmail.com</a>
-    </div>
-    <div class="header-top__phone">
-      <a href="#">+(32)45637219</a>
+  <div class="header-top__wrap container">
+    <div class="header-top__content">
+      <div class="header-top__mail">
+      <i class="far fa-envelope"></i>
+        <a href="mailto:stefan@illutek.com">Vasilis@gmail.com</a>
+      </div>
+      <div class="header-top__phone">
+      <i class="fas fa-phone"></i>
+        <a href="#">+(32)45637219</a>
+      </div>
     </div>
   </div>
 </div>

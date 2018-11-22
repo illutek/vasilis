@@ -1,0 +1,10 @@
+// //////////////////////////////
+// @@ CONTAINER
+// /////////////////////////////
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(25rem, 92rem) minmax(2rem, 1fr);
+  grid-template-areas: 
+    '. content .';
+}

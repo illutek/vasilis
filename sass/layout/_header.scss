@@ -4,13 +4,30 @@
 
 .header-top {
   background-color: $blue;
-  min-height: 5rem;
+  color: $white;
 
-  &__wrap {
-    display: flex;
+  &__wrap {    
+  }
+
+  &__content {
+    grid-area: content;
+    padding: 1rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
 
-    padding: 0 1rem;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__mail {
+
+  }
+
+  &__phone {
+
   }
   
 }
@@ -30,11 +47,16 @@
 
   &__logo {
     grid-area: logo;
+    padding: 2rem;
+
+    width: 50vw;
   }
 
   &__bcg-img {
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+
+    z-index: -999;
 
   }
 

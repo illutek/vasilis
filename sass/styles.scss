@@ -2,8 +2,13 @@
 // @@ ++ BOWER COMPONENTS
 // ===================================
 
-@import "../bower_components/font-awesome/css/font-awesome.min.css";
 @import "../bower_components/animate.css/animate.min.css";
+
+// ===================================
+// @@ ++ FONTS 
+// ===================================
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 // ===================================
 // @@ ++ Globals
@@ -12,6 +17,7 @@
 @import "base/reset";
 @import "base/variables";
 @import "base/mixin";
+@import "base/typography";
 @import "base/globals";
 
 
@@ -26,6 +32,7 @@
 // ===================================
 
 @import "layout/header";
+@import "layout/main";
 @import "layout/footer";
 
 
@@ -33,4 +40,6 @@
 // @@ ++ Components
 // ===================================
 
+@import "components/container";
 @import "components/btn";
+@import "components/pnl";

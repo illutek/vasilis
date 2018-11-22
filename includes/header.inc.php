@@ -9,7 +9,9 @@
 ?>
 
 <div class="header">
-  <div class="header__logo">VASILIS</div>
+  <div class="header__logo">
+    <img src="images/logo.png" alt="">
+  </div>
   <div class="header__bcg-img">
     <img src="images/header-bcg.jpg" alt="">
   </div>

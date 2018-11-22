@@ -1,0 +1,19 @@
+// /////////////////////////
+// @@ MAIN
+// ////////////////////////
+
+.main {
+
+  &__content {
+    grid-area: content;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @include respond(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem;
+    }
+  }
+}

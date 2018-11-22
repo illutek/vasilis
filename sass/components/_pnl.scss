@@ -1,0 +1,22 @@
+// //////////////////////////////
+// @@ PNL
+// /////////////////////////////
+
+.pnl {
+    color: $white;
+    padding: 2rem;
+    margin: 3rem 0;
+
+    @include respond(tablet) {
+        
+    }
+
+    &--blue {
+        background-color: $blue;
+    }
+
+    &--red {
+        background-color: $red;
+    }
+}
+
