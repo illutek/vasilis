@@ -5,13 +5,11 @@
 .footer {
   background-color: $grey;
   color: $white;
-  
-  // position: fixed;
-  // bottom: 0;
-  // left: 0;
+
 
   &__wrap {
     min-height: 10rem;
+    padding: 2rem 0;
   }
 
   &__content {
@@ -20,11 +18,29 @@
 
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas: 
+      'one'
+      'two';
 
     @include respond(tablet) {
       grid-template-columns: repeat(2, auto);
       justify-content: space-between;
+      grid-template-areas: 
+        'one two';
     }
     
+  }
+
+  &__one {
+    grid-area: one;
+    margin: 1rem 0;
+
+    display: flex;
+    align-self: start;
+  }
+
+  &__two {
+    grid-area: two;
+
   }
 }

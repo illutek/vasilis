@@ -28,36 +28,24 @@
 
   <div class="main container">
     <div class="main__content">
-    <article class="electricity pnl pnl--blue">
-    <h2>Algemene elektriciteitswerken</h2>
-    <p>
-    Plannen om te bouwen of een woning te renoveren, dan bent u bij mij aan het juiste adres voor uw elektrische installatie. 
-    <p>
-      Dit kan zijn van parlofonie, videofonie, branddetectie, elektrische verwarming, keuringsplannen, verlichting, tuinverlichting, elektrische poorten, telecom installaties, datanetwerken, bekabeling,…
-    </p> 
-    <h3>Herstellingen</h3>
-    <p> Grote of kleine problemen ik probeer je altijd zo snel mogelijk verder te helpen.
+      <article class="electricity pnl pnl--blue">
+        <h2>Algemene elektriciteitswerken</h2>
+          <p>Plannen om te bouwen of een woning te renoveren, dan bent u bij mij aan het juiste adres voor uw elektrische installatie. 
+          <p>Dit kan zijn van parlofonie, videofonie, branddetectie, elektrische verwarming, keuringsplannen, verlichting, tuinverlichting, elektrische poorten, telecom installaties, datanetwerken, bekabeling,…
+          </p> 
+        <h3>Herstellingen</h3>
+          <p> Grote of kleine problemen ik probeer je altijd zo snel mogelijk verder te helpen.</p>
+          <p>Voor meer informatie neem gerust <a href="#">contact</a> met mij op.</p>
+      </article>
 
-    </p>
-    <p>
-      Voor meer informatie neem gerust <a href="#">contact</a> met mij op.
-    </p>
-  </article>
-
-  <article class="gyproc pnl pnl--red">
-    <h2>Gyproc afwerkingen</h2>
-    <p>
-      Valse wanden en plafonds.
-    </p>
-    <p>Een extra muur of de plaatsing van een nieuw plafond geen probleem deze worden vakkundig geplaatst en schildersklaar afgewerkt.</p>
-    <p>
-      Meer informatie over de opties en mogelijkheden neem gerust <a href="#">contact</a>  met mij op.
-    </p>
-
-  </article>
+      <article class="gyproc pnl pnl--red">
+        <h2>Gyproc afwerkingen</h2>
+        <p>Valse wanden en plafonds.</p>
+        <p>Een extra muur of de plaatsing van een nieuw plafond geen probleem deze worden vakkundig geplaatst en schildersklaar afgewerkt.</p>
+        <p>Meer informatie over de opties en mogelijkheden neem gerust <a href="#">contact</a>  met mij op.</p>
+      </article>
     </div>
     
-
   </div>
 
 
@@ -65,7 +53,9 @@
 <footer class="footer">
   <div class="footer__wrap container">
     <div class="footer__content">
-      <div class="footer__one">Contacteer mij</div>
+      <div class="footer__one">
+        <a href="#" class="btn btn--blue">Contacteer mij</a>
+      </div>
       <div class="footer__two">
         <p>E. B. V. B. A Vasilis Elektriciteit jobs <br>   
         & Gyproc Afwerking.</p> 
