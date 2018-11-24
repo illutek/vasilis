@@ -10,3 +10,4 @@ build/
 dist/
 includes/analyticstracking.php
 npm-debug.log
+css/styles.css
