@@ -46,7 +46,8 @@
     'cta';
 
   @include respond(desktop) {
-    grid-template-columns: minmax(2rem, 1fr) 1fr 100rem  minmax(2rem, 1fr);
+    //grid-template-columns: minmax(2rem, 1fr) 1fr 100rem  minmax(2rem, 1fr);
+    grid-template-columns: minmax(2rem, 1fr) 10rem minmax(15rem, 82rem) minmax(2rem, 1fr);
     grid-template-areas: 
       '. . logo .'
       '. cta cta .';
@@ -85,6 +86,8 @@
 
     @include respond(desktop) {
       justify-self: start;
+
+      padding: 0 0 5rem 0;
     }
   }
 
