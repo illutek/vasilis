@@ -43,4 +43,11 @@
     grid-area: two;
 
   }
+
+  &__bottom-wrap {
+    grid-area: content;
+    padding: 2rem 0;
+    border-top: solid 1px $black;
+    font-size: 1.2rem;
+  }
 }
