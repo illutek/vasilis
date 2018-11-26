@@ -17,3 +17,15 @@
     }
   }
 }
+
+.privacy {
+
+  &__content {
+    grid-area: content;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4rem 0;
+  }
+}

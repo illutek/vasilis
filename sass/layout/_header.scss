@@ -2,11 +2,19 @@
 // @@ HEADER-TOP AND HEADER 
 // /////////////////////////////
 
+.noscript {
+  background: $blue;
+  color: $white;
+  padding: 0 3rem;
+  // border-bottom: 1px $white solid;
+}
+
 .header-top {
   background-color: $blue;
   color: $white;
 
-  &__wrap {    
+  &__wrap { 
+  
   }
 
   &__content {

@@ -28,7 +28,7 @@
     }
     function mail2(name, dom, tl, params, display)
     {
-      document.write('<a href="'+m_+e(name,dom,tl)+params+'" class="">'+display+'</a>');
+      document.write('<a href="'+m_+e(name,dom,tl)+params+'" class="btn btn--blue">'+display+'</a>');
     }
     function e(name, dom, tl)
     {
