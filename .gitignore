@@ -6,8 +6,8 @@ node_modules
 vendor
 bower_components
 *.css.map
-build/
 dist/
-includes/analyticstracking.php
 npm-debug.log
 css/styles.css
+js/analytics.js
+js/analytics-id.js
