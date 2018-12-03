@@ -26,7 +26,7 @@ U hebt een browser met JavaScript nodig om de e-mailadressen te kunnen zien.
       </div>
       <div class="header-top__phone">
       <i class="fas fa-phone"></i>
-        <a href="#">+(32)472489779</a>
+        <a href="tel:32472489779">+(32)472489779</a>
       </div>
     </div>
   </div>
