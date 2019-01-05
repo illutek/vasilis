@@ -27,10 +27,17 @@
       var s = e(name,dom,tl);
       document.write('<a href="'+m_+s+params+'" class="">'+s+'</a>');
     }
+    
     function mail2(name, dom, tl, params, display)
     {
       document.write('<a href="'+m_+e(name,dom,tl)+params+'" class="btn btn--blue">'+display+'</a>');
     }
+
+    function mail3(name, dom, tl, params, display)
+    {
+      document.write('<a href="'+m_+e(name,dom,tl)+params+'" class="">'+display+'</a>');
+    }
+
     function e(name, dom, tl)
     {
       var s = name+a_;

@@ -17,14 +17,14 @@
           </p> 
         <h3>Herstellingen</h3>
           <p> Grote of kleine problemen ik probeer je altijd zo snel mogelijk verder te helpen.</p>
-          <p>Voor meer informatie neem gerust <a href="#">contact</a> met mij op.</p>
+          <p>Voor meer informatie neem gerust <script>mail3("hykavesel","gmail",0,"","contact")</script> met mij op.</p>
       </article>
 
       <article class="gyproc pnl pnl--red">
         <h2>Gyproc afwerkingen</h2>
         <p>Valse wanden en plafonds.</p>
         <p>Een extra muur of de plaatsing van een nieuw plafond geen probleem deze worden vakkundig geplaatst en schildersklaar afgewerkt.</p>
-        <p>Meer informatie over de opties en mogelijkheden neem gerust <a href="#">contact</a>  met mij op.</p>
+        <p>Meer informatie over de opties en mogelijkheden neem gerust <script>mail3("hykavesel","gmail",0,"","contact")</script>  met mij op.</p>
       </article>
     </div>
     
